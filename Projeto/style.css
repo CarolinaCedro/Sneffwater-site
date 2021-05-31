@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body,html{
+    scroll-behavior: smooth;
+    margin: 0;
+    background: #fff;
+    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+p{
+    font-size: 20px;
+    color: #777;
+}
+
+
+img {
+    
+}
+
+section{
+    width: 100%;
+    
+}
+
+fieldset{
+    border: 0;
+}
+
+input{
+    
+    width: 300px;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+
+
+.estilo{
+
+    padding: 80px;
+    
+}
+
+
+
+#container-servicos {
+
+   background-color: rgb(245, 250, 248);
+ 
+
+
+}
+#container-reserva {
+background-color: rgb(245, 250, 248);
+
+}
+
+
+#container-contato {
+background-color: rgb(249, 247, 252);
+}
+
+#rodape1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 600px;
+    background-color: black;
+    float: left;
+    border-radius: 10px;
+}
+
+#rodape2{
+    padding: 5px;
+    width: 600px;
+    border-radius: 10px;
+   background-color: rgb(1, 1, 12); 
+   float: right;
+}
+
+#principal{
+    position: absolute;
+    left: 0;
+    top: none;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* Conteudos
+-----------------------------------------------*/
+
+/**** Conteiners 1 ********/
+#container1 {
+    width: 100%;
+    background-color:olive;
+    display: flex;
+    
+}
+
+
+#conteudo-faixa1{
+    padding-top: 50px;
+    padding-left: 110px;
+    float: left;
+    width: 500px;
+    background-color:none;
+}
+
+#faixa1{
+    padding-top: 80px;
+    padding-right: 80px;
+    float: right;
+    width: 580px;
+    background-color: rgb(255, 254, 255);
+    
+    
+}
+/**** Conteiners 2 ********/
+#container2 {
+
+    width: 100%;
+    background-color:none;
+    
+}
+
+
+#conteudo-faixa2{
+
+    padding-top: 50px;
+    padding-left: 110px;
+    float: left;
+    width: 500px;
+    background-color:none;
+}
+
+#faixa2{
+    padding-top: 80px;
+    padding-right: 80px;
+    float: right;
+    width: 580px;
+    background-color: rgb(255, 254, 255);
+    
+    
+}
+/**** Conteiners 3 ********/
+
+#container3 {
+    
+    width: 100%;
+    background-color:none;
+    
+}
+
+
+#conteudo-faixa3{
+    padding-top: 50px;
+    padding-left: 110px;
+    float: left;
+    width: 500px;
+    background-color:none;
+}
+
+#faixa3{
+    padding-top: 80px;
+    padding-right: 80px;
+    float: right;
+    width: 580px;
+    background-color: rgb(255, 254, 255);
+    
+    
+}
+
+/* Fim conteudo 
+-------------------------------------------------------*/
+
+#parallax{
+    position: relative;
+    height: 100%;
+    opacity: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(./img/imagem1.jpg); 
+    
+  
+}
+
+#servicos{
+
+    width: 100%;
+}
+
+#reservas {
+    width: 100%;
+}
+
+#contato {
+    width: 100%;
+}
+
+
+.conteudo {
+    color: #777;
+    background-color:white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+
+
+#logo h1 {
+    float: left;
+    
+}
+
+header{
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(62, 166, 214);
+    position: relative;
+}
+
+nav ul{
+    
+    list-style: none;
+    float: right;
+    margin: 20px;
+
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+border-bottom: 1px solid rgb(20, 20, 20);
+color: rgb(14, 13, 13);
+}
+
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(59, 58, 58);
+}
